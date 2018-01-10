@@ -1,0 +1,34 @@
+h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #ffffff;
+	padding: 30px;
+	background-color: #4aaaa5;
+}
+
+.nav-items {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	list-style-type: none;
+}
+
+header {
+	height: 85px;
+}
+
+.entire-content-area {
+	width: 960px;
+}
+
+.main-content-area {
+	width: 650px;
+}
+
+.connect-sidebar {
+	width: 270px;
+}
+
+.icon-images {
+	height: 60px;
+	width: 60px;
+	border: 0;
+}
