@@ -5,12 +5,11 @@ body {
 h1 {
 	font-family: "Georgia", "Times", "Times New Roman", "serif";
 	color: #ffffff;
-	padding: 30px;
+	padding: 20px;
 	background-color: #4aaaa5;
 	font-size: 28px;
-	width: 225px;
+	width: 300px;
 	margin-left: 100px;
-	/*display:inline-block;*/
 	float: left;
 }
 
@@ -37,13 +36,13 @@ li a {
 
 header {
 	height: 100px;
-/*	position: relative;*/
+	background-color: #ffffff;
+	margin-bottom: 30px;
+	border-bottom: 3px solid #cccccc;
 }
 
 .entire-content-area {
 	width: 960px;
-/*	float: left;
-	position: relative;*/
 	margin-left: 100px;
 }
 
@@ -55,14 +54,25 @@ header {
 	line-height: 24px;
 	background-color: #ffffff;
 	padding: 30px;
+	float: left;
+	border: 1px solid #dddddd;
 }
 
-.horizontal-divider {
-	border-top: 3px solid;
-	border-color: #dddddd;
+.horizontal-divider-thick, .horizontal-divider-thin {
+	color: #dddddd;
 	display: block;
+}
+
+.horizontal-divider-thick {
+	border-top: 3px solid;
 	margin-bottom: 20px;
 	margin-top: 25px;
+}
+
+.horizontal-divider-thin {
+	border-top: 2px solid;
+	margin-bottom: 15px;
+	margin-top: 15px;
 }
 
 #profile-photo {
@@ -74,30 +84,46 @@ header {
 }
 
 .connect-sidebar {
-	width: 270px;
+	width: 210px;
+	background-color: #ffffff;
+	padding: 30px;
 	float: right;
+	border: 1px solid #dddddd;
 }
 
 .icon-images {
 	height: 60px;
 	width: 60px;
-	border: 0;
+	margin: 2px;
+}
+
+a:link {
+	text-decoration: none; /* Turn off underlines on links */
 }
 
 #connect-header {
 	font-family: "Georgia", "Times", "Times New Roman", "serif";
-	font-size: 18px;
+	font-size: 22px;
 	color: #4aaaa5;
 }
 
 #main-content-title {
 	font-family: "Georgia", "Times", "Times New Roman", "serif";
-	font-size: 24px;
+	font-size: 26px;
 	color: #4aaaa5;
 }
 
 footer {
-	position: absolute;
-	background-color: #66666;
-	padding: 60px;
+	clear: both;
+	background-color: #666666;
+	padding: 30px;
+	border-top: 5px solid #4aaaa5;
+}
+
+.footer-text {
+	font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+	font-size: 10px;
+	color: #dddddd;
+	text-align: center;
+	vertical-align: middle;
 }
