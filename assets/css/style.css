@@ -1,26 +1,64 @@
 h1 {
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family: "Georgia", "Times", "Times New Roman", "serif";
 	color: #ffffff;
 	padding: 30px;
 	background-color: #4aaaa5;
+	font-size: 28px;
+	width: 225px;
+	margin-left: 100px;
+	/*display:inline-block;*/
+	float: left;
 }
 
 .nav-items {
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
 	color: #777777;
 	list-style-type: none;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	float: left;
+}
+
+.nav-bar {
+	position: absolute;
+	float: right;
+}
+
+li a {
+    display: block;
+    width: 60px;
 }
 
 header {
-	height: 85px;
+	height: 100px;
+/*	position: relative;*/
 }
 
 .entire-content-area {
 	width: 960px;
+/*	float: left;
+	position: relative;*/
 }
 
 .main-content-area {
 	width: 650px;
+}
+
+.main-content-area p {
+	font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+	font-size: 16px;
+	color: #777777;
+	line-height: 24px;
+}
+
+.horizontal-divider {
+	border-top: 5px solid;
+	border-color: #dddddd;
+	display: block;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 
 .connect-sidebar {
@@ -31,4 +69,22 @@ header {
 	height: 60px;
 	width: 60px;
 	border: 0;
+}
+
+#connect-header {
+	font-family: "Georgia", "Times", "Times New Roman", "serif";
+	font-size: 18px;
+	color: #4aaaa5;
+}
+
+#main-content-title {
+	font-family: "Georgia", "Times", "Times New Roman", "serif";
+	font-size: 24px;
+	color: #4aaaa5;
+}
+
+footer {
+	position: absolute;
+	background-color: #66666;
+	padding: 60px;
 }
