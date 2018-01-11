@@ -10,15 +10,20 @@
 <body>
 	<header>
 		<h1>Rhonda Glennon</h1>
-		<nav class="nav-items">
-			<a href="index.html">About</a>
-			<a href="portfolio.html">Portfolio</a>
-			<a href="contact.html">Contact</a>
+		<nav class="nav-bar">
+			<ul>
+				<li class="nav-items"><a href="index.html">About</a></li>
+				<li class="nav-items">|</li>
+				<li class="nav-items"><a href="portfolio.html">Portfolio</a></li>
+				<li class="nav-items">|</li>
+				<li class="nav-items"><a href="contact.html">Contact</a></li>
+			</ul>
 		</nav>
 	</header>
 	<section class="entire-content-area">
 		<section class="main-content-area">
-			<h2>Portfolio</h2>
+			<h2 id="main-content-title">About Me</h2>
+			<div class="horizontal-divider-thick"></div>
 			<p>Gray cat
 				<img class="portfolio-thumbnail" src="assets/images/cat1.jpg" alt="Gray cat">
 			</p>
@@ -34,15 +39,15 @@
 			<p>Sunny cat
 				<img class="portfolio-thumbnail" src="assets/images/cat5.jpg" alt="Sunny cat">
 			</p>
-
 		</section>
 		<aside class="connect-sidebar">
-			<h3>Connect with Me</h3>
+			<h3 id="connect-header">Connect with Me</h3>
+			<div class="horizontal-divider-thin"></div>
 			<a class="icon-links" href="https://github.com/rmglennon">
 				<img class="icon-images" src="assets/images/github.png" alt="GitHub">
 			</a> 
 			<a class="icon-links" href="https://www.linkedin.com/in/rmglennon">
-				<img class="icon-images" src="assets/images/linkedin.png" alt="LinkedIn">
+				<img class="icon-images"src="assets/images/linkedin.png" alt="LinkedIn">
 			</a>
 			<a class="icon-links" href="https://stackexchange.com/users/512843/rhonda">
 				<img class="icon-images" src="assets/images/stackoverflow.png" alt="StackExchange">
@@ -50,7 +55,7 @@
 		</aside>
 	</section>
 	<footer>
-		<p>Copyright &copy; Rhonda Glennon</p>
-	</footer>	
+		<p class="footer-text">&copy; Copyright 2018 Rhonda Glennon</p>
+	</footer>	r>	
 </body>
 </html>
