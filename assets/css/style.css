@@ -128,3 +128,31 @@ footer {
 	text-align: center;
 	vertical-align: middle;
 }
+
+/* Portfolio page */
+
+.portfolio-sample {
+	position: relative;
+	width: 100%;
+}
+
+.portfolio-thumbnail {
+	z-index: 1;
+	display: block;
+	overflow: hidden;
+}
+
+.portfolio-name {
+	position: absolute;
+	top: 70%;
+	font-family: "Georgia", "Times", "Times New Roman", "serif";
+	font-size: 18px;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+	z-index: 2;
+	overflow: hidden;
+}
