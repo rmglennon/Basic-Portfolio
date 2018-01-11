@@ -5,33 +5,34 @@ body {
 h1 {
 	font-family: "Georgia", "Times", "Times New Roman", "serif";
 	color: #ffffff;
-	padding: 20px;
 	background-color: #4aaaa5;
 	font-size: 28px;
-	width: 300px;
+	width: 275px;
 	margin-left: 100px;
 	float: left;
+	height: 100%;
+	text-align: center;
+	line-height: 90px;
 }
 
 .nav-items {
 	font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
 	color: #777777;
 	list-style-type: none;
-	font-size: 12px;
-	margin: 0;
-	padding: 0;
-	display: inline-block;
+	font-size: 14px;
+	margin: 10px;
 	float: left;
 }
 
 .nav-bar {
 	position: absolute;
-	float: right;
+	right: 60px;
+	text-align: center;
+	line-height: 75px;
 }
 
 li a {
-    display: block;
-    width: 60px;
+	color: #777777;
 }
 
 header {
